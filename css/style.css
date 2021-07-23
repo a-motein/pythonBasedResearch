@@ -9,33 +9,53 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: rgb(241, 235, 235);
 }
 
 /* Head CSS  */
-
+header{
+	background-color:#ffc107!important;
+}
+div{
+	overflow: hidden;
+}
 
 
 
 
 /* secondSec CSS  */
 
-#secondSec{
-	padding: 5% 0;
+.sidebar{
+	background-color: #e0b636;
+	
+	
 }
 
-#secondSec textarea{
+.main{
+	padding: 0;
+}
+
+
+.main form textarea{
 	resize: both;
 	width: 100%;
 }
 
 
-#secondSec .btn{
+.main form .btn{
 	width: 100%;
 }
-
+.cards{
+	width: 70%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.card-div{
+	margin: 10px;
+}
 
 /* thirdSec CSS  */
-
+/* 
 #thirdSec{
 	padding: 5% 0;
 }
@@ -43,12 +63,13 @@ body{
 
 #thirdSec .card{
 	margin: 2% 0;
-}
+} */
 
 
 /* Footer Section  */
 
 footer{
-	padding: 5% 0;
+	background-color: rgb(190, 205, 206);
+	padding: 2% 0;
 }
 
